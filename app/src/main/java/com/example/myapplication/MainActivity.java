@@ -30,6 +30,8 @@ ArrayList<ContactModel>  contactModels = new ArrayList<>();
         contactModels.add(new ContactModel(R.drawable.img1 , "99127283", "raju"));
         contactModels.add(new ContactModel(R.drawable.img3 , "99127283", "shelloo"));
 
+        recyclerView.setAdapter(new RecyclerContactAdapter(getApplicationContext(),contactModels);
+
 
     }
 
